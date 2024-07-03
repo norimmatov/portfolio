@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    background-color: dodgerblue;
+    .logo{
+        width: 70%;
+        height: 100%;
+        li{
+            list-style-type: none;
+            padding-left: 100px;
+        }
+    }
+    .nav{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        li{
+            width: 20%;
+            height: 100%;
+            list-style-type: none;
+            align-content:center;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+.page1{
+    width: 100%;
+    height: 730px;
+    text-align: center;
+    align-content:center;
+    background-image: url(https://cdn.hero.page/wallpapers/b9cead17-e814-4eda-bd59-0ecf1967f746-the-subtle-summits-minimalist-mountain-wallpaper-wallpaper-4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-size: 40px;
+    color:dodgerblue;
+    h1{
+        font-size: 60px;
+    }
+    button{
+        width: 200px;
+        height: 70px;
+        border:0;
+        border-radius: 35px;
+        background-color:dodgerblue;
+        a{
+            text-decoration: none;
+            color:black;
+        }
+    }
+}
+.page2{
+    width: 70%;
+    height: 700px;
+    align-content:center;
+    margin: auto;
+    .all{
+        display: flex;
+        .text{
+            width: 50%;
+            height: 100%;
+        }
+        .img{
+            width: 50%;
+            height: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.page3{
+    width: 100%;
+    height: 700px;
+    align-content:center;
+    .skills{
+        width: 90%;
+        height: 50%;
+        margin: auto;
+        display: flex;
+        gap: 10px;
+        div{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            align-content:center;
+            box-shadow: 5px 5px 5px lightgray;
+            transition: all 0.5s linear;
+            i{
+                font-size: 50px;
+            }
+            .fa-html5{
+                color:rgb(255, 162, 0);
+            }
+            .fa-css3-alt{
+                color: rgb(0, 179, 255);
+            }
+            .fa-js{
+                color:yellow;
+            }
+        }
+    }
+}
+.page3 .skills div:hover{
+    margin-top: 30px;
+}
+.page4{
+    width: 100%;
+    height: 700px;
+    align-content:center;
+    .services{
+        width: 60%;
+        height: 300px;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        margin-bottom: 80px;
+        .prince{
+            width: 100%;
+            height: 100px;
+            padding-left: 5px;
+        }
+        .service1{
+            width: 100%;
+            height: 450px;
+            box-shadow: 5px 5px 5px lightgray;
+            img{
+                width: 100%;
+            }
+        }
+        .service2{
+            width: 100%;
+            height: 450px;
+            box-shadow: 5px 5px 5px lightgray;
+            img{
+                width: 100%;
+            }
+        }
+        .service3{
+            width: 100%;
+            height: 450px;
+            box-shadow: 5px 5px 5px lightgray;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.page5{
+    width: 90%;
+    height: 700px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    .left{
+        width: 50%;
+        height:100%;
+        align-content:center;
+         p{
+            margin: 0;
+            padding: 0;
+            padding-right: 10px;
+        }
+        .input{
+            width: 100%;
+            height: 400px;
+            align-content: center;
+            margin: auto;
+            button{
+                border:0;
+            }
+        }
+    }
+    .right{
+        width: 50%;
+        height: 100%;
+        align-content:center;
+        .icons{
+            margin: auto;
+        }
+
+    }
+}
